@@ -1,11 +1,7 @@
 /* PROMO */
-header {
-  position: sticky;
-  top: 0;
-}
+
 .header-top-bar {
   width: 100%;
-  display: flex;
   margin: 0 auto;
   max-width: 1300px;
   position: relative;
@@ -15,8 +11,10 @@ body {
 }
 .promo-info {
   display: flex;
+  justify-content: center;
   max-width: 100%;
-  min-width: 80%;
+
+  min-width: 85%;
   padding: 8px;
   color: white;
   font-size: 1.2rem;
